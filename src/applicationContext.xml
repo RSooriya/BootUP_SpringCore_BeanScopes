@@ -8,6 +8,7 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 <!-- creating bean -->
 <bean id="myCoach" class="com.sooriya.BaseballCoach" scope="singleton"/> 
+<!-- specifying bean scope through scope attribute -->
 <!-- <bean id="myCoach" class="com.sooriya.BaseballCoach" scope="prototype"/>  -->
 </beans>
 
